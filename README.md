@@ -1,3 +1,5 @@
+# 添加支持Gotify通知推送
+默认通知优先级为6
 # 改名公告
 #### 2021年04月25日 起luci-app-serverchand 改名为 luci-app-pushbot
 
