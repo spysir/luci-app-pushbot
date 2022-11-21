@@ -99,7 +99,7 @@ a=s:taboption("basic", Value,"pushdeer_srv",translate('PushDeer Server'), transl
 a.rmempty = true
 a:depends("pushdeer_srv_enable","1")
 
-a=s:taboption("basic", Value,"gotify_token",translate('Gotify Token'), translate("Gotify Token").."<br>调用代码获取<a href='https://gotify.net/api-docs' target='_blank'>点击这里</a><br>默认的优先级为4<br>")
+a=s:taboption("basic", Value,"gotify_token",translate('Gotify Token'), translate("Gotify Token").."<br>调用代码获取<a href='https://gotify.net/api-docs' target='_blank'>点击这里</a><br>默认的优先级为6<br>")
 a.rmempty = true
 a:depends("jsonpath","/usr/bin/pushbot/api/gotify.json")
 
